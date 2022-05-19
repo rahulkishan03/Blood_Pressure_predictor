@@ -1,0 +1,87 @@
+
+body {
+  margin: 50px;
+  width: 1200px;
+  height: 1200px;
+}
+
+
+h2 {
+  color: #A73E3E;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 16px;
+}
+
+h1 {
+  color: #961818;
+  text-align: center;
+}
+
+
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  padding-right: 4px;
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li+li {
+  margin-top: 16px;
+}
+
+
+.required {
+  color: #FE1515;
+  font-size: 18px;
+}
+
+input {
+  font-family: "Montserrat";
+  width: 200px;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1
+}
+
+.button {
+  padding-left: 40px;
+}
+
+
+.output {
+  width :  1200px;
+  height :  50px;
+  
+}
+
+button {
+  background-color: #506BA7;
+  color: white;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: #506BA7;
+}
